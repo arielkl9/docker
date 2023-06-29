@@ -4,10 +4,15 @@ Docker server that runs a web app
 -----requirements-----
 
 runs on nginx - V
+
 uses WordPress not Apache version - V
+
 has mysql db - V
+
 works with SSL - V
+
 domain set - V
+
 had redis cache with php plugin - V
 
 ————————————————————————
