@@ -39,39 +39,39 @@ Docker server that runs a web app
    
  ----------vm----------
 	
- need a set amount of system resources for each VM
+	 need a set amount of system resources for each VM
+		
+	 need hypervisor
+		
+	 lot more resource-heavy than a container
+		
+	 not so scaleable
+		
+	 can perform differently on each system
+		
+	 structure - 
 	
- need hypervisor
-	
- lot more resource-heavy than a container
-	
- not so scaleable
-	
- can perform differently on each system
-	
- structure - 
-	
- 	host os -> hypervisor -> guest os -> app
+	 	host os -> hypervisor -> guest os -> app
 		
  ----------Docker----------
 	
- isolated	
-	
- lightweight
-	
- portable
-	
- works in the deployment stage
-	
- makes every program run the same on any system
-	
- very scaleable
-	
- docker containers will work identically on each system
-	
- structure - 
-	
- 	host os -> (VM is optional here) -> container engine -> filesystem -> app
+	 isolated	
+		
+	 lightweight
+		
+	 portable
+		
+	 works in the deployment stage
+		
+	 makes every program run the same on any system
+		
+	 very scaleable
+		
+	 docker containers will work identically on each system
+		
+	 structure - 
+		
+	 	host os -> (VM is optional here) -> container engine -> filesystem -> app
 
 ----------good to know----------
 
