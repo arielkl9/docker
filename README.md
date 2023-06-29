@@ -93,11 +93,11 @@ Docker server that runs a web app
 
 ----------notes----------
 
-1. use 2 spaces not tabs in the docker-compose.yml file
-
-2. not recommended to forward port to the same port in web apps (80:80/443:443 is bad and can clash with other services)
-
-3. docker-compose has a full network that can be configured example: bridged (driver)
+	1. use 2 spaces not tabs in the docker-compose.yml file
+	
+	2. not recommended to forward port to the same port in web apps (80:80/443:443 is bad and can clash with other services)
+	
+	3. docker-compose has a full network that can be configured example: bridged (driver)
 
 
  ----------template----------
