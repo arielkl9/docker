@@ -3,9 +3,9 @@ Docker server that runs a web app
 
 -----requirements-----
 runs on nginx - V
-uses wordpress not apache version - V
+uses WordPress not Apache version - V
 has mysql db - V
-works with ssl - V
+works with SSL - V
 domain set - V
 had redis cache with php plugin - V
 
@@ -16,17 +16,17 @@ to make the program run the same on every platform
 
 2. docker has a client-server architecture
 
-3. the docker engine is the client-server in the docker deployment stracure
+3. the docker engine is the client-server in the docker deployment structure
 
-4. every docker container is seperated and not affected by any other container
+4. every docker container is separated and not affected by any other container
 
 5. docker uses images to create instances (containers) of a program/app
 
-6. docker images stored in registry (mostly hub.docker.com) 
+6. docker images stored in the registry (mostly hub.docker.com) 
 
-7. docker images have tags that specifie differnet types of the same image
+7. docker images have tags that specify different types of the same image
 
-8. creation of custom docker images is made with a dockerfile
+8. creation of custom docker images is made with a docker file
 ————————————————————————
 -----docker differnet from a vm-----
 	-----vm-----
@@ -53,19 +53,19 @@ to make the program run the same on every platform
 ————————————————————————
 -----good to know-----
 
-Dockerfile - text file with instructions to build image (automation of docker image creation)
+Dockerfile - text file with instructions to build an image (automation of docker image creation)
 Docker image - template used to create Docker containers
 Docker container - running instance of a image
 Docker image tag - image version or type
 Docker daemon - use of docker images and containers together
-Docker engine - the communication between docker client-server to perform tasks
-Dangling image - Docker image that is assosiated with a running container
+Docker engine - the communication between the docker client-server to perform tasks
+Dangling image - Docker image that is associated with a running container
 ————————————————————————
 -----Docker compose-----
 	-----notes-----
-1. use 2 spaces not tabs in docker-compose.yml file
-2. not recommended to forward port to same port in web apps (80:80/443:443 is bad can clash with other services)
-3. docker-compose have a full network that can be configured example: bridged (driver)
+1. use 2 spaces not tabs in the docker-compose.yml file
+2. not recommended to forward port to the same port in web apps (80:80/443:443 is bad and can clash with other services)
+3. docker-compose has a full network that can be configured example: bridged (driver)
 
 	-----template-----
 version: ''
