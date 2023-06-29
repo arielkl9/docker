@@ -2,6 +2,7 @@
 Docker server that runs a web app
 
 -----requirements-----
+
 runs on nginx - V
 uses WordPress not Apache version - V
 has mysql db - V
