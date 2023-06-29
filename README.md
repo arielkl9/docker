@@ -1,8 +1,8 @@
------Self Exam-----
+----------Self Exam----------
 
 Docker server that runs a web app
 
------requirements-----
+----------requirements----------
 
 	runs on nginx - V
 	
@@ -16,8 +16,7 @@ Docker server that runs a web app
 	
 	had redis cache with php plugin - V
 
-————————————————————————
------notes-----
+----------notes----------
 
 	1. docker works by packaging the application with all the dependencies in a single place 
 	to make the program run the same on every platform
@@ -35,11 +34,10 @@ Docker server that runs a web app
 	7. docker images have tags that specify different types of the same image
 	
 	8. creation of custom docker images is made with a docker file
-————————————————————————
------docker differnet from a vm-----
+
+----------docker differnet from a vm----------
    
-	
- -----vm-----
+ ----------vm----------
 	
  need a set amount of system resources for each VM
 	
@@ -54,11 +52,8 @@ Docker server that runs a web app
  structure - 
 	
  	host os -> hypervisor -> guest os -> app
-	
- ————————————
 		
-	
- -----Docker-----
+ ----------Docker----------
 	
  isolated	
 	
@@ -78,9 +73,7 @@ Docker server that runs a web app
 	
  	host os -> (VM is optional here) -> container engine -> filesystem -> app
 
-————————————————————————
-
------good to know-----
+----------good to know----------
 
 	Dockerfile - text file with instructions to build an image (automation of docker image creation)
 	
@@ -96,11 +89,9 @@ Docker server that runs a web app
 	
 	Dangling image - Docker image that is associated with a running container
 
-————————————————————————
+----------Docker compose----------
 
------Docker compose-----
-
- -----notes-----
+----------notes----------
 
 1. use 2 spaces not tabs in the docker-compose.yml file
 
@@ -109,7 +100,7 @@ Docker server that runs a web app
 3. docker-compose has a full network that can be configured example: bridged (driver)
 
 
- -----template-----
+ ----------template----------
 
 	version: ''
 	
@@ -157,9 +148,7 @@ Docker server that runs a web app
 				
 				driver: [type]
 
-————————————————————————
-
------commands------
+----------commands-----------
 
 Basic
 
@@ -172,8 +161,6 @@ Basic
 	: docker --help
 	
 	: docker login
-
-————————————
 
 Images
 
@@ -198,9 +185,7 @@ Images
 	: docker inspect
 	
 	: docker history imageName
-
-————————————
-
+ 
 Containers
 
 	: docker ps
@@ -227,8 +212,6 @@ Containers
 	
 	: docker history ImageName/ID
 
-————————————
-
 System
 
 	: docker stats
@@ -236,8 +219,6 @@ System
 	: docker system df
 	
 	: docker system prune
-
-————————————
 
 Dockerfile
 
@@ -248,9 +229,6 @@ Dockerfile
 	: docker build -t ImageName:Tag directoryOfDocekrfile
 	
 	: docker run image
-
- 
-————————————
 
 Compose
 
